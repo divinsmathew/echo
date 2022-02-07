@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:id="@+id/contentRow"
+        android:background="#ffffff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+                android:background="?android:selectableItemBackground"
+                android:gravity="center_vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#212121"
+                        android:textStyle="normal"
+                        android:textSize="17sp"
+                        android:layout_marginBottom="3dp"
+                        android:text="Stairway To Heaven"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginRight="11dp"
+                        android:id="@+id/trackTitle"
+                        android:paddingTop="20dp"/>
+                <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#bdbdbd"
+                        android:textStyle="normal"
+                        android:textSize="14sp"
+                        android:text="The Smithies"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginRight="11dp"
+                        android:id="@+id/trackArtist"
+                        android:paddingBottom="20dp"/>
+        </LinearLayout>
+
+        <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#e0e0e0"/>
+
+</LinearLayout>

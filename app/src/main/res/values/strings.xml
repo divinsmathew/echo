@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Echo</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    
+    <string name="me_descrptn">
+        Hello World!\n I\'m Divins Mathew. Thanks for using Echo Music Player. Hope you\'re enjoying the app.
+        Hit my mail for any queries/suggestions about the App.\n\n Happy Echoing!
+    </string>
+</resources>
