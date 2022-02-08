@@ -1,3 +1,7 @@
+<p align="center"> 
+    <img align="center" src="https://user-images.githubusercontent.com/13608193/152950789-049101dd-7747-4807-a01b-7a58fd6165bb.png" />
+</p>
+
 # Overview
 Echo is a light-weight and minimal music player for Android, built with Android Studio and written in Kotlin. Echo comes with support for:
 
