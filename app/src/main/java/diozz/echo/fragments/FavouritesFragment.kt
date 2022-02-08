@@ -122,8 +122,8 @@ class FavouritesFragment : Fragment()
             while (songCursor.moveToNext())
             {
                 var curentId = songCursor.getLong(songId)
-                var curentTitle = songCursor.getString(title)
-                var curentArtist = songCursor.getString(artist)
+                var curentTitle = songCursor.getString(title) ?: ""
+                var curentArtist = songCursor.getString(artist) ?: ""
                 var curentData = songCursor.getString(data)
                 var curentDate = songCursor.getLong(dateAdded)
 
